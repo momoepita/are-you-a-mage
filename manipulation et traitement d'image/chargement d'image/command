@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -std=c99 `sdl-config --libs --cflags` -o binarize binarize.c -lSDL
