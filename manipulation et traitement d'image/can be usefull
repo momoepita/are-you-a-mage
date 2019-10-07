@@ -1,0 +1,12 @@
+gcc -Wall -g `sdl-config --libs --cflags` -lSDL -c src/main.c
+
+gcc -Wall -Wextra -std=c99 `sdl-config --libs --cflags` -o main main.c -lSDL //this one worked
+
+
+====TODO
+
+adapt the size of the window with the image size
+make it work with other format 
+
+
+
